@@ -15,14 +15,14 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.355);
     display: grid;
     gap: 8px;
-    grid-template-rows: 120px auto auto auto;
+    grid-template-rows: 87px auto auto auto;
     grid-template-columns: repeat(3, 32.5%);
     padding: 13px;
     width: 93.5vw;
-    height: 85vh;
+    height: 90vh;
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -53%);
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.347);
@@ -30,7 +30,7 @@ body {
 }
 
 #local_task {
-    margin-top: 15px;
+    margin-top: 5px;
     grid-area: 2 / 1 / 5 / 4;
     background-color: rgb(81, 85, 104);
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.115);
@@ -86,11 +86,15 @@ li {
     font-weight: 500;
     font-size: 18.5px;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 4px;
     color: white;
     list-style: none;
     margin-bottom: 7px;
     margin-top: 7px;
+    background-color: rgb(66, 71, 97) ;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.268);
 }
 .concluido_btn {
     box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.363);
@@ -105,6 +109,8 @@ li {
     border-radius: 5px;
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.225);
     background-color: rgb(19, 17, 17);
+    margin-bottom: 6px;
+    margin-top: 5px;
 }
 .concluido_btn:hover {
     transition: ease 0.2s;
