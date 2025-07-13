@@ -12,14 +12,15 @@ body {
 }
 
 .area_task {
-    border: 1px solid rgba(255, 255, 255, 0.355);
+    border: 1.5px solid rgba(255, 255, 255, 0.616);
     display: grid;
     gap: 8px;
     grid-template-rows: 87px auto auto auto;
     grid-template-columns: repeat(3, 32.5%);
     padding: 13px;
-    width: 93.5vw;
-    height: 90vh;
+    min-width: 70vw;
+    max-width: 85vw;
+    min-height: 70vh;
     border-radius: 10px;
     position: absolute;
     top: 49%;
