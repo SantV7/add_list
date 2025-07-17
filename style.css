@@ -19,7 +19,7 @@ body {
     grid-template-columns: repeat(3, 32.5%);
     padding: 13px;
     min-width: 70vw;
-    max-width: 85vw;
+    max-width: 90vw;
     min-height: 70vh;
     border-radius: 10px;
     position: absolute;
@@ -136,7 +136,7 @@ li {
 
 @media(min-width:850px) {
     .area_task {
-        max-width: 77vw;
+        max-width: 90vw;
         height: 85vh;
     }
 
